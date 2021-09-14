@@ -57,7 +57,7 @@ if __name__ == "__main__":
         i = Interpreter(inst, args.stacksize[0], args.debug, args.sleep,
                         not args.noout, [i.encode() for i in args.args], args.traceback)
         i.run()
-    inst = """
+    hello_world = """
 {Hel}
 $3{lo }
 $3{W}
@@ -68,25 +68,4 @@ $1|10
 $1ooooo
 ooooo 
 """
-    fib = """
-|1s2+
-+s3s2d1
-.2+++
-"""
-    truth_machine = """
-a++++
-d0.2+++
-+++++
-    """
 
-    s = """
-|1s2+
-p++++++
-+++++
-"""
-
-    """  i = Interpreter(fib, 5)
-    i.run()
-    print(i.stack)
-    print(len(inst))
-    print(b'\x00'.join([i.encode() for i in sys.argv]))"""
