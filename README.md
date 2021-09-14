@@ -45,7 +45,7 @@
 - @
     - Represents the number of non-zero items on the stack. Can be used in place of a `Number`   
   
-### Commandline
+## Commandline
 - This implementation uses command line arguments for config
 - To see the entire usage, run `python3 main.py -h`
 - File extension should be `.hfqbruh` for files
